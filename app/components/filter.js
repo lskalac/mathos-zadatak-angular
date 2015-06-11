@@ -6,7 +6,7 @@ angular.module('myApp').filter('stopVoting', function() {
 			
 			return "This game is Game of the (first half) Year 2015. Stop voting!";
 		}
-		return 'Please coninue voting...';
+		return 'Please continue voting...';
 	};
 });
 })(angular);
