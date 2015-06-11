@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html ng-app = "myApp">
+
+<head>
+	<title> Anketa </title>
+	<meta charset ="UTF-8">
+	<link href="css/style.css" rel="stylesheet" />
+	<script src = "http://code.angularjs.org/1.4.0/angular.js"> </script>
+	<script src = "http://code.angularjs.org/1.4.0/angular-route.min.js"> </script>
+	<script src="app/app.module.js"> </script>
+	<script src="app/controllers/MainController.js"> </script>
+	<script src ="app/components/filter.js"></script>
+</head>
+	
+
+<body>
+	<div class = "main" ng-controller="MainController">
+		<h1> {{question.title}} </h1>
+		<div class="voting">
+			<p class="likes" ng-click="plusOne1()">{{ answer1.likes }} </p>
+			<p class = "answer"> {{answer1.name}} </p>
+			<p class = "done"> {{answer1.likes | stopVoting}} </p>
+			<br>
+		</div>
+		<div class="voting">
+			<p class="likes" ng-click="plusOne2()">{{ answer2.likes }} </p>
+			<p class = "answer"> {{answer2.name}} </p>
+			<p class = "done"> {{answer2.likes | stopVoting}} </p>
+			<br>
+		</div>
+		<div class="voting">
+			<p class="likes" ng-click="plusOne3()"> {{ answer3.likes }} </p>
+			<p class = "answer"> {{answer3.name}} </p>
+			<p class = "done"> {{answer3.likes | stopVoting}} </p>
+		</div>
+		
+	</div>
+	
+	
+	
+</body>
+	
+</html>

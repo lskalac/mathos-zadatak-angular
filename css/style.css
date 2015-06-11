@@ -1,0 +1,51 @@
+*{
+	margin:0;
+}
+
+body{
+	background-color:#A0A0A0; 
+}
+
+h1{
+	text-align: center;
+	margin:30px;
+}
+
+.voting{
+	display:block;
+	margin: 20px;
+	margin-left: 80px;
+}
+
+.answer{
+	display:inline-block;
+	font-size:25px;
+	margin-left:20px;
+}
+
+.likes{
+	background-color:#B80000 ;
+	color:white;
+	font-size:25px;
+	display:inline-block;
+	cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 200;
+	padding:20px;   
+}
+
+.likes:hover
+{
+	background-color:#6633FF;
+	color:white;
+		
+}
+
+
+.done{
+	display:inline-block;
+	margin-left:100px;
+	color:#800000;
+	font-size:20px;
+}
