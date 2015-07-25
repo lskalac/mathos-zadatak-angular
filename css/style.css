@@ -9,12 +9,13 @@ body{
 h1{
 	text-align: center;
 	margin:30px;
+	margin-top:20px;
 }
 
 .voting{
 	display:block;
 	margin: 20px;
-	margin-left: 80px;
+	margin-left: 150px;
 }
 
 .answer{
@@ -30,9 +31,11 @@ h1{
 	display:inline-block;
 	cursor: pointer;
     border-radius: 50%;
+	width:3%;
     text-align: center;
     font-weight: 200;
-	padding:20px;   
+	padding:10px;   
+	margin-top:10px;
 }
 
 .likes:hover
@@ -49,3 +52,43 @@ h1{
 	color:#800000;
 	font-size:20px;
 }
+
+.box{
+	border:solid 4px #800000;
+	border-radius:5px;
+	padding:7px;
+	margin:25px;
+	margin-left:100px;
+	width:45%;
+	font-size:20px;
+	text-align:center;
+	background-color: #D8D8D8 ;
+}
+
+.text{
+	font-size:20px;
+	margin-left:25px;
+	margin-top:25px;
+}
+
+.backbtn{
+	border:solid 4px #800000;
+	border-radius:5px;
+	padding:7px;
+	margin:25px;
+	margin-left:100px;
+	width:30%;
+	font-size:20px;
+	text-align:center;
+	background-color: #D8D8D8 ;
+}
+
+p{
+	color:black;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
