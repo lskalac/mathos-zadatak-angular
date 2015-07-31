@@ -1,0 +1,11 @@
+<div class = "main">
+	<h1> Poll </h1>
+	<p class="text"> Please answer the following questions: </p>
+	<div ng-repeat="poll in polls" >
+		<div class="box">
+			 <a href="#poll/{{poll.id}}/" title="Click for answering">
+			 <p> {{poll.question}} </p>
+			</a>
+		</div>
+	</div>
+</div>
